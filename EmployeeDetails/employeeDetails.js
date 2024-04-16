@@ -26,7 +26,7 @@ function displayHREmployees() {
 }
 
 function findEmployeeById(employeeId) {
-    const foundEmployee = employees.find(employee => employee.id === 2);
+    const foundEmployee = employees.find(employee => employee.id === 3);
     if (foundEmployee) {
         document.getElementById('employeesDetails').innerHTML = `<p>${foundEmployee.id}: ${foundEmployee.name}: ${foundEmployee.name} - ${foundEmployee.department} - $${foundEmployee.salary}</p>`;
     }
