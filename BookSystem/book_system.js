@@ -27,7 +27,7 @@ function showBooks() {
     <p><strong>Book Name: </strong>${book.name}</p>
     <p><strong>Author Name: </strong>${book.authorName}</p>
     <p><strong>Book Description: </strong>${book.bookDescription}</p>
-    <p><strong>No. Of Pages: </strong>${book.pagesNumber}</p>`);
+    <p><strong>No. Of Pages: </strong>${book.pagesNumber}</p>`).join("");
     document.getElementById("books").innerHTML = booksDiv;
 }
 
